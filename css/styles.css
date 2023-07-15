@@ -34,7 +34,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -107,6 +107,7 @@ body {
   background-color: var(--color-white);
 }
 .advantages-list {
+  background-color: var(--color-white);
 }
 .advantages-item {
 }
@@ -157,11 +158,28 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.team-name {
+  color: var(--color-navy-blue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-text {
+  color: var(--color-slate);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .team-list {
 }
 .link {
 }
 .team-item {
+  background-color: var(--color-white);
 }
 /* --------------FOOTER-------------- */
 
@@ -169,8 +187,8 @@ body {
   background-color: var(--color-navy-blue);
 }
 .footer-logo {
-  color: var(--color-cloud);
-  font-family: Raleway;
+  color: var(--color-iris);
+  font-family: "Raleway" sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -180,8 +198,8 @@ body {
 .link {
 }
 .footer-logo-accent {
-  color: var(--color-iris);
-  font-family: Raleway;
+  color: var(--color-cloud);
+  font-family: "Raleway" sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -195,14 +213,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* =============SIDEBAR============ */
+/* =============Gallery============ */
 
-.sidebar {
+.gallery {
+  background-color: var(--color-white);
 }
-.sidebar-btn-list {
+.gallery-title {
+}
+
+.gallery-btn-list {
   text-align: center;
 }
-.sidebar-btn-main-item {
+.gallery-btn-main-item {
   color: var(--color-white);
   background-color: var(--color-ocean);
   text-align: center;
@@ -212,7 +234,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.sidebar-btn-item {
+.gallery-btn-item {
   color: var(--color-iris);
   background-color: var(--color-cloud);
   text-align: center;
@@ -225,21 +247,19 @@ body {
 
 /* ==============PORTFOLIO============= */
 
-.portfolio {
-}
-.portfolio-list {
+.gallery-portfolio-list {
 }
 
-.portfolio-item {
+.gallery-portfolio-item {
 }
-.portfolio-title {
+.gallery-portfolio-title {
   color: var(--color-navy-blue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.portfolio-text {
+.gallery-portfolio-text {
   color: var(--color-slate);
   font-size: 16px;
   font-weight: 400;
