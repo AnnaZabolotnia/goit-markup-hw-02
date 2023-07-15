@@ -225,17 +225,6 @@ body {
   text-align: center;
 }
 
-.gallery-btn-main-item {
-  color: var(--color-white);
-  background-color: var(--color-ocean);
-  text-align: center;
-  font-family: inherit;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
 .gallery-btn-item {
   color: var(--color-iris);
   background-color: var(--color-cloud);
@@ -246,6 +235,10 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+.gallery-btn-list li:first-child button {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
 }
 
 /* ==============PORTFOLIO============= */
