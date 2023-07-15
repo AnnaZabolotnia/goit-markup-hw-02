@@ -224,6 +224,7 @@ body {
 .gallery-btn-list {
   text-align: center;
 }
+
 .gallery-btn-main-item {
   color: var(--color-white);
   background-color: var(--color-ocean);
