@@ -15,7 +15,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--color-slate);
   background-color: var(--color-white);
   size: 16px;
 }
@@ -61,6 +61,8 @@ body {
 }
 
 .header-contacts {
+}
+.header-contacts-link {
   color: var(--color-slate);
   font-style: normal;
   font-size: 16px;
@@ -68,7 +70,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 .header-contacts-link:hover,
 .header-contacts-link:focus {
   color: var(--color-ocean);
