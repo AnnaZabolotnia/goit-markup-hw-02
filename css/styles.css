@@ -226,6 +226,10 @@ body {
   text-align: center;
 }
 
+button[data-special="true"] {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
 .gallery-btn-item {
   color: var(--color-iris);
   background-color: var(--color-cloud);
@@ -236,10 +240,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-}
-#all-btn {
-  color: var(--color-white);
-  background-color: var(--color-ocean);
 }
 
 /* ==============PORTFOLIO============= */
