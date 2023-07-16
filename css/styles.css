@@ -61,10 +61,10 @@ body {
 }
 
 .header-contacts {
+  font-style: normal;
 }
 .header-contacts-link {
   color: var(--color-slate);
-  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -237,7 +237,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.gallery-btn-list li:first-child button {
+li:first-child .gallery-btn-item {
   color: var(--color-white);
   background-color: var(--color-ocean);
 }
