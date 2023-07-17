@@ -226,10 +226,12 @@ body {
   text-align: center;
 }
 
-button[data-special="true"] {
+.gallery-btn-item:hover,
+.gallery-btn-item:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
 }
+
 .gallery-btn-item {
   color: var(--color-iris);
   background-color: var(--color-cloud);
